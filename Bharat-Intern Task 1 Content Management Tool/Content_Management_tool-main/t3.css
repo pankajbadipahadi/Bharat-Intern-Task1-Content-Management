@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+    background-image:radial-gradient(rgb(220, 190, 190),rgb(194, 244, 156),rgb(104, 180, 189)) ;
+    margin: 0;
+    padding: 60px;
+    /* background-image: linear-gradient(to bottom right, yellow ,red ); */
+  
+}
+.cms{
+    text-shadow: 4px 1px 10px #e42f2f, 0 0 5px #bc7717;
+    color: rgb(45, 45, 45);
+}
+
+.top img{
+margin-left: 75px;
+}
+
+.top-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.font-color{
+    color: rgb(210, 18, 24);
+    font-weight: 800;
+    
+    /* -webkit-text-stroke: 1px rgb(0, 0, 0); */
+}
+
+.border-color{
+    border: 2px solid rgb(0, 0, 0);
+}
+@media screen and (min-width:768px) {
+    .top-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    h1 {
+        margin-right: 30px;
+        font-size: 50px;
+        font-family: "Times New Roman", Times, serif;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-weight: 700;
+}
+
+img{
+    width: 300px;
+    height: 300px;
+}
+
+.preview {
+    width: 15cm;
+    height: 15cm;
+}
+
+label{
+    font-size: 18px;
+}
+
+input{
+    margin-bottom: 12px;
+    margin-top: 12px;
+    color: white;
+}
+
+.input{
+    width: 100%;
+    padding: 6px;
+    border: 2px solid grey;
+    border-radius: 8px;
+}
+
+.video-preview {
+    width: 15cm;
+    height: auto;
+}
+
+.button-section {
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.button-section button {
+    font-size: 16px;
+    background-color: rgb(143, 58, 85);
+    color: white;
+    border-radius: 10px;
+    border: 0px solid;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    box-shadow:  0 12px 16px 0 rgba(97, 0, 0, 0.738), 0 17px 50px 0 rgba(0, 0, 0, 0.591);
+}
+
+.data-container {
+    max-height: 300px;
+}
+
+.card {
+    border: 2px solid grey;
+    border-radius: 16px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 100px;
+    margin-bottom: 20px;
+    background-size: cover;
+    background-position: center;
+}
+
+.card-header {
+    background-color:white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.card-title {
+    margin: 0;
+}
+
+.card-body {
+    margin-top: 10px;
+}
